@@ -1,8 +1,11 @@
-# -* coding: utf=8 -*-
-
 """
-Encoding and Decoding UTF-8 & ASCII
+Summary:
 
+The code defines dictionaries for encoding and decoding alphanumeric characters, along with encoding for months.
+It provides functions to convert Protected Processor Identification Number (PPIN) to Serial Number (SN) and vice versa.
+It reads input from a file, converts SN to PPIN or PPIN to SN based on user choice, and writes the output to another file.
+
+Encoding and Decoding UTF-8 & ASCII
 """
 alphaNumberic37_encoding = {0: 'Undefined', 1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'E', 6: 'F', 7: 'G', 8: 'H', 9: 'I', 
                             10: 'J', 11: 'K', 12: 'L', 13: 'M', 14: 'N', 15: 'O', 16: 'P', 17: 'Q', 18: 'R', 19: 'S',
